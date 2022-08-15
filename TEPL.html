@@ -1,102 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
 
-<!-- style sheet start here-->
 <style>
+.topcin { 
+  font-size:25px; }
 
-#topcin {
-  font-size:medium
-  font-style: bold;
-}
+  .topall{ 
+    margin-top: 20px; }
 
-#topsummery {
-  font-style: bold;
-  display: block;
-font-size: 30px;
-text-align: right;
-}
-#regis{
-  padding:0;
-  font-style: bold;
-background-color: rgb(237, 237, 125);
-text-align: center;
-font-size: 21px;
- }
+  .topall .topsummery{ 
+    float: right; }
 
- #firsthead {
-color: red;
-font-style: bold;
-text-align: center;
-font-size:50px;
-text-shadow: 0.1px 1.5px 1px black;
- }
-#firstpara{
-  font-size: 31px;
-  font-style: bold;
+  body{ 
+    background-color: rgb(71, 189, 31); }
+
+  .topsummery { 
+   font-weight: 560;
+  font-size: 30px; }
+
+  #regis{
+    padding:0;
+    font-style: bold;
+    text-align: center;
+    font-size: 30px; }
+   #regis span { border-radius: 12px ;
+    background-color: rgba(238, 238, 98, 0.921); }
+  
+   #firsthead {
+    font-family: Arial, Helvetica, sans-serif;
+  color: red;
+  font-weight: 900;
   text-align: center;
-}
-#dtext1{
+  font-size:55px;
+  text-shadow: 0.9px 1.9px 1px black;
+  transform: scaleY(1.4); }
 
-}
-#dtext2{
-  
-}
-#dtext3{
-  
-}
-#dtext4{
-  
-}
-body{
-  
+  #firstpara{
+    font-size: 31px;
+  font-weight: 550;
+    text-align: center;
+    transform: scale(1.1, 1.5); }
+ 
+  .logotepl{
+    margin-left: 15px;
+  position: absolute;
+  object-position: 0px 0px 30px;
+  width: 135px;
+  height: 105px; }
 
-}
-#downpara{
+  .firstdot {
+    display: flex; }
 
-}
-#phone1{
+  .seconddot{
 
-}
-#web{
+  }
 
-}
-#email{
+.contact{
+  display:inline-flex; }
 
-}
+#phone1{font-size: 29px;
+font-weight: 900;
+color: rgb(255, 255, 255);
+font-family: Arial, Helvetica, sans-serif; }
 
+.downpara{
+  font-size: larger;
+  padding-left: 26px;
+  font-weight: bolder;
+  color: rgba(235, 235, 53, 0.958) ;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  word-spacing: 5px; }
+
+.downparaall{ position: relative;
+line-height: 0.4; }
+
+#downpara2{
+  padding-left: 5%;
+  letter-spacing: 1px;
+  word-spacing: 5px; }
+
+.imagelogo{margin-left: 15px;
+display: grid;
+grid-template-columns: auto auto;
+  gap: 20px; }
+
+.imgphone{
+  display:inline-flex; 
+position: relative; }
+
+  .contact{ 
+    display: flex;
+   position: relative;
+    font-size:21px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    ;
+    color: rgb(255, 255, 255);
+    font-weight: bolder; }
+
+  #web { position: absolute;
+ margin-left: 20px;
+
+  }
+#email { position: absolute;
+margin-left: 350px;
+}
+   .contact  img{ 
+    position: relative;
+    display: flex; 
+    margin-left: auto;
+    margin-right: 10px;
+    margin-top: -150px;
+   }
+
+ /* end */
 </style>
 
-  <!-- <link rel="stylesheet" href="Tepl.css"> -->
+ <!-- <link rel="stylesheet" href="Tepl.css"> -->
+  
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TEPL</title>
-    <span id="topcin">CIN : U80903BR2020PTCG046505</span> <span id="topsummery">An ISO 9001:2015 Certified Advance Computer Institute</span>
-    
+  
     </head>
 
 <body>
-       <h1 id="firsthead">TECHNOBRIGHT EDUCATION PVT.LTD.</h1>    
-      <h4 id="regis">Regitered Under Ministry Of Corpartion Affairs, Goverment Of India</h4>
+
+  <div class="topall">
+    <span class="topcin">CIN : U80903BR2020PTCG046505</span> <span class="topsummery">An ISO 9001:2015 Certified Advance Computer Institute</span>
+  </div>
+  
+       <div class="firstall">  <img class="logotepl" src="content\tepllogo.png" alt="tepllogo">
+        <h1 id="firsthead">TECHNOBRIGHT EDUCATION PVT.LTD.</h1>  
+      </div>  
+    <h4 id="regis"> <span> &nbsp; &nbsp;Registerd Under Ministry Of Corpartion Affairs, Goverment Of India  &nbsp; &nbsp;</span></h4>
       <p id="firstpara">ALL TYEPS OF COMPUTER COURSE (CERTIFICATE / DIPLOMA / HIGHER DIPLOMA)</p>
+
       
-      <ul tyep="circle"> 
         
-        <li id="dtext1">SPOKEN ENGLISH</li>
-        <li id="dtext2">PERSONALITY DEVELOPMENT PROGRAMME</li>
-        <li id="dtext3">COMPUTER TEACHER TRAINING</li>
-        <li id="dtext4">HINDI/ENGLISHY TYPING</li>
-
+       <div class="firstdot"> 
+        <ul>
+        <li>SPOKEN ENGLISH</li>
+        <li >PERSONALITY DEVELOPMENT PROGRAMME</li>
       </ul>
-      <p id="downpara">Regd. Add.: C/o Subind Devi, New Dashratha, Road No.1, Gardanibagh, Patna Bihar (India) 800 020</p>
-      <p id="phone1">6299606035, 9471889510</p>
-      <span id="web">www.technobrightedu.com</span>
-      <span id="email"> E Mail : sanjeev@technobrightedu.com</span>
+       </div>
+       <div class="seconddot">
+      <ul>
+        <li >COMPUTER TEACHER TRAINING</li>
+        <li >HINDI/ENGLISHY TYPING</li>
+      </ul>
+  </div>
+     
+  <div class="downparaall"> <p class="downpara">Regd. Add.: C/o Subind Devi, New Dashratha, Road No.1, </p>
+      <p class="downpara" id="downpara2"> Gardanibagh, Patna Bihar (India) 800 020</p>
+    </div>
 
-      <img src="content\tepllogo.png" alt="error">
+     <div class="imgphone">   
+      <div class="imagelogo">
+       <img src="content/call.png" alt="calllogo" width="40" height="39"> 
+       <img src="content/wplogo.png" alt="wplogo" width="35" height="35"> </div>
+       
+       <span id="phone1">&nbsp;&nbsp;6299606035, &nbsp; 9471889510 </span> </div>
+
+   <div class="contact">
+  <p id="web">www.technobrightedu.com</p>
+  <p id="email"> E Mail : sanjeev@technobrightedu.com</p>
+  <img src="content\student.png" alt="student" width="350px"
+  height="250px" > 
+      </div>
     
+
+  
 
 </body>
 
 </html>
+
