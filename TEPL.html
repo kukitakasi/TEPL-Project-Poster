@@ -88,6 +88,7 @@ grid-template-columns: auto auto;
   gap: 20px; }
 
 .imgphone{
+  margin-top: 15px;
   display:inline-flex; 
 position: relative; }
 
@@ -115,11 +116,57 @@ margin-left: 350px;
     margin-top: -150px;
    }
 
+   /* list styling start here*/
+
+/* FIRST LIST STYLING */
+
+.container1{  
+ 
+  transform: scaleX(1.2);
+  letter-spacing: 1px;
+  margin-left: 14%;
+ 
+  display: flex; }
+#fir1{
+  font-size: 30px;
+  color: rgb(121, 0, 121); }
+#sec1{
+  font-size: 30px;
+  color: red;
+ }
+ul.center1{
+  transform: scaleY(1.2);
+  display: flex;
+}
+
+/* SECOND LIST STYLING */
+
+.container2{
+  transform: scaleX(1.2);
+ margin-left:17%;
+  margin-bottom: 60px;
+  letter-spacing: 1px;
+  display: flex; }
+#fir2{
+
+ 
+  font-size: 30px;
+  color: black; }
+#sec2{
+  
+  font-size: 30px;
+  color: green;
+   }
+ul.center2{
+  transform: scaleY(1.2);
+  margin-top: -8px;
+  display: flex;
+  text-align: center; }
+/* list styling end */
  /* end */
 </style>
 
- <!-- <link rel="stylesheet" href="Tepl.css"> -->
-  
+  <link rel="stylesheet" href="Tepl.css"> 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -138,22 +185,32 @@ margin-left: 350px;
       </div>  
     <h4 id="regis"> <span> &nbsp; &nbsp;Registerd Under Ministry Of Corpartion Affairs, Goverment Of India  &nbsp; &nbsp;</span></h4>
       <p id="firstpara">ALL TYEPS OF COMPUTER COURSE (CERTIFICATE / DIPLOMA / HIGHER DIPLOMA)</p>
-
-      
-        
-       <div class="firstdot"> 
-        <ul>
-        <li>SPOKEN ENGLISH</li>
-        <li >PERSONALITY DEVELOPMENT PROGRAMME</li>
-      </ul>
-       </div>
-       <div class="seconddot">
-      <ul>
-        <li >COMPUTER TEACHER TRAINING</li>
-        <li >HINDI/ENGLISHY TYPING</li>
-      </ul>
-  </div>
-     
+<!--List style start here-->  
+      <div class="container1">
+        <div class="firstdot1">
+            <ul class="center1">
+                <li id="fir1"> <b>SPOKEN ENGLISH </b></li>
+            </ul>
+        </div>
+        <div>
+            <ul class="center1">
+                <li id="sec1"><b>PERSONALITY DEVELOPMENT PROGRAMME</b></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="firstdot2">
+            <ul class="center2">
+                <li id="fir2"> <B>COMPUTER TEACHER TRAINING </B></li>
+            </ul>
+        </div>
+        <div>
+            <ul class="center2">
+                <li id="sec2"><b>HINDI / ENGLISH TYPING </b></li>
+            </ul>
+        </div>
+    </div>
+     <!--List style end here-->  
   <div class="downparaall"> <p class="downpara">Regd. Add.: C/o Subind Devi, New Dashratha, Road No.1, </p>
       <p class="downpara" id="downpara2"> Gardanibagh, Patna Bihar (India) 800 020</p>
     </div>
