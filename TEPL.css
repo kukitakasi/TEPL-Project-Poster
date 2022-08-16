@@ -82,6 +82,7 @@ grid-template-columns: auto auto;
   gap: 20px; }
 
 .imgphone{
+  margin-top: 15px;
   display:inline-flex; 
 position: relative; }
 
@@ -109,4 +110,51 @@ margin-left: 350px;
     margin-top: -150px;
    }
 
+   /* list styling start here*/
+
+/* FIRST LIST STYLING */
+
+.container1{  
+ 
+  transform: scaleX(1.2);
+  letter-spacing: 1px;
+  margin-left: 14%;
+ 
+  display: flex; }
+#fir1{
+  font-size: 30px;
+  color: rgb(121, 0, 121); }
+#sec1{
+  font-size: 30px;
+  color: red;
+ }
+ul.center1{
+  transform: scaleY(1.2);
+  display: flex;
+}
+
+/* SECOND LIST STYLING */
+
+.container2{
+  transform: scaleX(1.2);
+ margin-left:17%;
+  margin-bottom: 60px;
+  letter-spacing: 1px;
+  display: flex; }
+#fir2{
+
+ 
+  font-size: 30px;
+  color: black; }
+#sec2{
+  
+  font-size: 30px;
+  color: green;
+   }
+ul.center2{
+  transform: scaleY(1.2);
+  margin-top: -8px;
+  display: flex;
+  text-align: center; }
+/* list styling end */
  /* end */
