@@ -7,9 +7,13 @@
   .topall .topsummery{ 
     float: right; }
 
-  body{ 
-    background-color: rgb(71, 189, 31); }
-
+  body{
+    background-image: url("https://github.com/kukitakasi/TEPL-Project-Poster/blob/main/contant/finalbg.jpeg?raw=true");
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
   .topsummery { 
    font-weight: 560;
   font-size: 30px; }
@@ -105,9 +109,10 @@ margin-left: 350px;
    .contact  img{ 
     position: relative;
     display: flex; 
+    margin-right: -9px;
     margin-left: auto;
-    margin-right: 10px;
-    margin-top: -150px;
+   
+    margin-top: -140px;
    }
 
    /* list styling start here*/
